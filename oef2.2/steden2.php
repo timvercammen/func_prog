@@ -1,5 +1,7 @@
 <?php
 require_once "html_components.php";
+//we need data from the database, so...
+require_once "database.php";
 
 PrintHead();
 PrintBody();
@@ -10,8 +12,6 @@ PrintJumbo( $title = "Erg leuke plekken in Europa",
 <div class="container">
     <div class="row">
         <?php
-        //we need data from the database, so...
-        require_once "database.php";
 
         //alle records ophalen
         $rows = GetData( "select * from images" );

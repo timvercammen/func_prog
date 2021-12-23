@@ -9,7 +9,7 @@ require_once "lib/html_functions.php";
 
 PrintHead();
 PrintJumbo( $title = "Leuke plekken in Europa" ,
-    $subtitle = "Tips voor citytrips voor vrolijke vakantiegangers!" );
+                        $subtitle = "Tips voor citytrips voor vrolijke vakantiegangers!" );
 
 //var_dump( $_SESSION['last_sql'] );
 ?>
